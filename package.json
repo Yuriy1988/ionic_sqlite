@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "start:browser": "ionic cordova run browser",
-    "start:win": "ionic cordova run windows -- --arch=\"x64\"",
+    "win": "ionic cordova run windows -- --arch=\"x64\"",
     "start:android": "ionic cordova run android",
     "start:ios": "ionic cordova run ios",
     "build:win": "ionic cordova build windows -- --arch=\"x64\" --release",
